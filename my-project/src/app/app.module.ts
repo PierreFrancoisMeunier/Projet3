@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HumainsComponent } from './humains/humains.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 export const ROUTES : Routes = [
@@ -20,11 +22,13 @@ export const ROUTES : Routes = [
     AppComponent,
     HeaderComponent,
     HumainsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+
   ],
   providers: [],
   bootstrap: [AppComponent]

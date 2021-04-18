@@ -1,43 +1,42 @@
-<app-header></app-header>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
   <div class="container-fluid">
     <div class="logo">
-    <a class="navbar-brand" href="#">
-      <img src="assets/images/images_header/logo.png " alt=""  class="logo">
+      <a class="navbar-brand" href="#haut_page">
+        <img src="assets/images/images_header/logo.png " alt="" class="logo">
 
-    </a>
+      </a>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#" routerLink = "home">Acceuil</a>
+          <a class="nav-link active" aria-current="page" href="#haut_page" routerLink="home">Acceuil</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active " id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
             Races
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item " href="#">Humains</a></li>
-            <li><a class="dropdown-item" href="#">Elfes</a></li>
-            <li><a class="dropdown-item" href="#">Nains</a></li>
-            <li><a class="dropdown-item" href="#">Ent</a></li>
-            <li><a class="dropdown-item" href="#">Orques </a></li>
-            <li><a class="dropdown-item" href="#">Uruk-Hai</a></li>
-            <li><a class="dropdown-item" href="#">Gobelins</a></li>
+          <ul class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item " href="#homme">Hommes</a></li>
+            <li><a class="dropdown-item" href="#elf">Elfes</a></li>
+            <li><a class="dropdown-item" href="#nain">Nains</a></li>
+            <li><a class="dropdown-item" href="#orc">Orques</a></li>
+            <li><a class="dropdown-item" href="#uruk">Uruk-Hai</a></li>
+            <li><a class="dropdown-item" href="#gobelin">Gobelins</a></li>
 
 
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" href="#" tabindex="-1" aria-disabled="true">Galerie</a>
+          <a class="nav-link  active" href="#carouselExampleControls" tabindex="-1" aria-disabled="true">Galerie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" href="#" tabindex="-1" aria-disabled="true">profil</a>
+          <a class="nav-link  active" href="#" tabindex="-1" aria-disabled="true">Profil</a>
         </li>
       </ul>
 

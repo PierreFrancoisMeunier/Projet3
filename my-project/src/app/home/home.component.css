@@ -1,4 +1,56 @@
-.container{
-border: solid red;
-height: 300px;
+div:target {
+  padding-top: 115px;
+  margin-top: 115px;
 }
+
+
+.containeur{
+height: 970px;
+width: 100%;
+}
+#homme{
+  background-image: url("images_home/humain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#elf{
+  background-image: url("images_home/elftest2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#nain{
+  background-image: url("images_home/nain2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#orc{
+  background-image: url("images_home/orc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#uruk{
+  background-image: url("images_home/urukhai.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#gobelin{
+  background-image: url("images_home/gobelin2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.carousel {
+  width: 50%;
+
+
+}
+
+.d-block{
+  height: 300px;
+
+}
+
+
+
